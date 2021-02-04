@@ -4,6 +4,13 @@
 
 The goal of this project is to explore the integration of Contentful Localization with Gridsome to build multi-language static sites.
 
+## Setup
+From the base directory:
+`npm install --global @gridsome/cli`
+`npm i`
+
+then either `gridsome build` (build static site) or `gridsome develop` (start local development server)
+
 ## Plugins
  The plugins currently being used to perform this integration are @gridsome/source-contentful and gridsome-plugin-i18n.
 
